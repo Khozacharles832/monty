@@ -71,4 +71,10 @@ void addqueue(stack_t **head, int _new);
 void addnode(stack_t **head, int _new);
 void _free(stack_t *head);
 int execute(char *data, stack_t **stack, unsigned int line_number, FILE *ptr);
+void _sub(stack_t **head, unsigned int line_number);
+void _div(stack_t **head, unsigned int line_number);
+void _mul(stack_t **head, unsigned int line_number);
+void _mod(stack_t **head, unsigned int line_number);
+void _pchar(stack_t **head, unsigned int line_number);
+void _pstr(stack_t **head, unsigned int line_number);
 #endif

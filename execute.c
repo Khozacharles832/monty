@@ -18,6 +18,12 @@ int execute(char *data, stack_t **stack, unsigned int line_number, FILE *ptr)
 				{"push", _push}, {"pall", _pall}, {"pint", _pint},
 				{"pop", _pop},
 				{"swap", _swap},
+				{"sub", _sub},
+				{"div", _div},
+				{"mul", _mul},
+				{"mod", _mod},
+				{"pchar", _pchar},
+				{"pstr", _pstr},
 				{"add", _add},
 				{"nop", _nop},
 				{NULL, NULL}
