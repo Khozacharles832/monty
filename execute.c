@@ -24,6 +24,7 @@ int execute(char *data, stack_t **stack, unsigned int line_number, FILE *ptr)
 				{"mod", _mod},
 				{"pchar", _pchar},
 				{"pstr", _pstr},
+				{"rotl", _rotl},
 				{"add", _add},
 				{"nop", _nop},
 				{NULL, NULL}
